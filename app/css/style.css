@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600);
+
+body{
+	background: #000000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.intro-hero-image
+{
+	position: relative;
+	height:600px;
+	background: url('../images/hero-bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: center top;
+	overflow: hidden;
+}
+
+.bg-overlay
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+}
+
+.intro-heading
+{
+	width: 650px;
+	height: 200px;
+	position: absolute;
+	right: 70px;
+	top: 10%;
+	background:url(../images/record-breaker-hero-text.png) no-repeat;
+	background-size: contain;
+	opacity:0;
+}
+
+.hot-wheels-logo
+{
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	left: 70px;
+	top: 75px;
+	background:url(../images/record-breaker-logo.png) no-repeat;
+	background-size: contain;
+}
+
+.hot-wheels-car
+{
+	width: 800px;
+	height: 350px;
+	position: absolute;
+	right: 100px;
+	top: 240px;
+	background:url(../images/record-breaker-hero-car.png) no-repeat;
+	background-size: contain;
+}
+
+.pitch, .box-contents
+{
+	background: #f1f1f1;
+	padding:75px 15px;
+	overflow: hidden;
+}
+
+.pitch-box-img
+{
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+}
+
+.pitch-box-img img
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 70%;
+	margin: auto;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+
+.pitch-box-img img:hover
+{
+	transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+
+.pitch-heading
+{
+	color: #244151;
+	font-size: 45px;
+	line-height: 1.7em;
+	margin-bottom: 25px;
+	font-weight: 500;
+	margin-top: 0;
+}
+
+.cars-animation
+{
+	position: relative;
+	background: url('../images/cars/cars-bg.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+
+.start-timer
+{
+	position: absolute;
+	width: 200px;
+	background: #FFAA00;
+	left: 0;
+	right:0;
+	top:12px;
+	margin:auto;
+	padding: 7px 10px;
+	font-size: 24px;
+}
+
+.start
+{
+	font-weight: 700;
+	text-transform: uppercase;;
+}
+
+.timer
+{
+	background: #313131;
+	color: #ffffff;
+	padding: 0 10px;
+	float:right;
+}
+
+.car-1, .car-2
+{
+	position: absolute;
+	width:200px;
+}
+
+.car-2
+{
+	top: 95px;
+  transform: rotate(-2deg);
+}
+
+.car-1
+{
+	bottom: 18px;
+	right: 15px;
+}
+
+
+.intro-how-it-works
+{
+	position: relative;
+	min-height: 500px;
+	background: url('../images/how-it-works-bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.intro-how-it-works .bg-overlay
+{
+	background: rgba(0,0,0,.75)
+}
+
+.intro-how-it-works .container
+{
+	z-index: 10;
+	position: relative;
+}
+
+.intro-how-it-works h3
+{
+	line-height: 1.5em;
+}
+
+.intro-how-it-works-steps li img
+{
+	width: 160px;
+}
+
+.intro-how-it-works-steps li h2
+{
+	line-height: 1.5em;
+	font-weight: 500;
+	color: #f1f1f1;
+}
+
+.intro-how-it-works-steps li h4
+{
+	line-height: 1.5em;
+	font-weight: 300;
+	color: #e1e1e1;
+}
+
+.box-contents ul li
+{
+	vertical-align: middle;
+}
+
+.fan-records li div
+{
+	overflow: hidden;
+	height: 174px;
+}
+
+.manual-gif
+{
+  margin-top: -60px;
+}
+
+.play-icon
+{
+	position: absolute;
+	width: 60px;
+	top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+	opacity: .9
+}
+
+
+
+
+
+
+
+
+
+/*xcxc*/
